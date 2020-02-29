@@ -1,0 +1,57 @@
+// Estilos Slider
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  background-image: linear-gradient(to right, #ffffff , #E2F1F3);
+  background-size: cover;
+}
+.carousel-indicators {
+    align-items: center;
+    li {
+        box-sizing: content-box;
+        width: 10px;
+        height: 10px;
+        margin-right: 3px;
+        border-radius: 50%;
+        margin-left: 3px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: $primary-color;
+        background-clip: padding-box;
+        border-top: 0 solid transparent;
+        border-bottom: 0 solid transparent;
+        opacity: .2;
+        transition: all 0.3s;
+        &.active {
+            opacity: 1;
+            width: 14px;
+            height: 14px;
+            background: $primary-color;
+        }
+    }
+}
+
+// Slider Content
+.slider-box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .slider-content {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .slider-title {
+        color: $primary-color;
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+    .silder-text {
+        color: $text-color;
+        line-height: 20px;
+        text-align: justify;
+    }
+}

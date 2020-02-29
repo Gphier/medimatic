@@ -1,0 +1,55 @@
+// Estilos Global
+* {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.box-shadow {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+/* Tamaño del scroll */
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  transition: all 0.3s;
+}
+
+/* Estilos barra (thumb) de scroll */
+body::-webkit-scrollbar-thumb {
+  background: $primary-color;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+body::-webkit-scrollbar-thumb:active {
+  background-color: $primary-color;
+  transition: all 0.3s;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: $primary-color;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+
+/* Estilos track de scroll */
+body::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+body::-webkit-scrollbar-track:hover,
+body::-webkit-scrollbar-track:active {
+  background: transparent;
+  transition: all 0.3s;
+}
+
+// Centrar con display flex
+.cdf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

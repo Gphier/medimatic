@@ -1,0 +1,40 @@
+// Estilos navbar
+.img-logo {
+  width: auto;
+  height: 5vh;
+}
+.navbar {
+  padding: 0.8rem;
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    margin-right: 2vh;
+  }
+}
+.dropdown-menu {
+  width: 300px;
+  background: $primary-color;
+  position: absolute;
+  top: 65px;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  border: none;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  .dropdown-item {
+    color: #ffffff;
+    padding: 1.5vh 4vh;
+    transition: all 0.3s;
+    &:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+  }
+}

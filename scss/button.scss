@@ -1,0 +1,44 @@
+// Estilos botones
+.btn-medimatic {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s;
+  &:hover {
+    text-decoration: none;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+  }
+}
+// Colores de botones
+.c1 {
+  background: $primary-color;
+  color: #ffffff;
+  &:hover {
+    color: #ffffff;
+  }
+}
+.c2 {
+  background: $secondary-color;
+  color: $primary-color;
+  &:hover {
+    color: $primary-color;
+  }
+}
+// Tamaño de botones
+.wm {
+  width: 180px;
+}
+.wl {
+  width: 280px;
+}
+.wxl {
+  width: 380px;
+}

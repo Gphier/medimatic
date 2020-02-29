@@ -1,0 +1,58 @@
+// Section Nosotros
+.nosotros {
+  background: linear-gradient(to right, #10a3b6, #00c3dc);
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  .nosotros-content {
+    color: #ffffff;
+    &__image {
+      width: auto;
+      height: 270px;
+    }
+    &__title {
+      margin-top: 3vh;
+      font-weight: 700;
+    }
+    &__text {
+      margin-top: 3vh;
+      text-align: justify;
+      font-weight: 500;
+      margin-bottom: 3vh;
+    }
+  }
+}
+
+// Section Productos
+// -- Destacados
+.productos {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  &__image {
+    width: 250px;
+    height: auto;
+  }
+  .productos-title {
+    text-align: center;
+    font-weight: 800;
+    color: $primary-color;
+    margin-bottom: 6vh;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-top: 15px solid $primary-color;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    .card-title {
+      text-align: center;
+      font-weight: 700;
+    }
+    .card-text {
+      text-align: justify;
+      color: #9f9f9f;
+      font-size: 12px;
+    }
+  }
+}
