@@ -64,6 +64,11 @@ body::-webkit-scrollbar-track:active {
   -ms-flex-pack: center;
   justify-content: center; }
 
+.line {
+  width: 12rem;
+  height: 2px;
+  background-color: #10A3B6; }
+
 .btn-medimatic {
   height: 40px;
   display: -webkit-box;
@@ -254,11 +259,27 @@ body::-webkit-scrollbar-track:active {
   .productos__image {
     width: 250px;
     height: auto; }
+  .productos .content-center-productos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 5rem; }
   .productos .productos-title {
     text-align: center;
     font-weight: 800;
     color: #10A3B6;
-    margin-bottom: 6vh; }
+    margin-bottom: 4vh;
+    text-transform: uppercase; }
   .productos .card {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -280,3 +301,36 @@ body::-webkit-scrollbar-track:active {
       text-align: justify;
       color: #9f9f9f;
       font-size: 12px; }
+  .productos .content-top {
+    margin-top: 4rem; }
+
+.clientes {
+  padding-top: 6rem;
+  padding-bottom: 6rem; }
+  .clientes .content-center-clientes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 5rem; }
+  .clientes .clientes-title {
+    text-align: center;
+    font-weight: 800;
+    color: #10A3B6;
+    margin-bottom: 4vh;
+    text-transform: uppercase; }
+  .clientes .owl-carousel .owl-item img {
+    display: block;
+    width: 100%; }
+    @media (min-width: 1023px) {
+      .clientes .owl-carousel .owl-item img {
+        width: 65%; } }
